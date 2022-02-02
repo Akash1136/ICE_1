@@ -19,6 +19,8 @@ public class CardDealer
         King.setSuit("Spades");
         Card Queen = new Card("hearts", 7);
         Queen.setSuit("clubs");
+        Card Ace = new Card("clubs", 7);
+        Ace.setSuit("spades");
         System.out.println("nineClubs.setSuit");
           System.out.println("King.setSuit");
           System.out.println("Queen.setSuit");
